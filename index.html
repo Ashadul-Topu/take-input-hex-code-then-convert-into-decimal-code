@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Generate  Color using JS DOM </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="root">
+        <div class="root-inner">
+            <h1>Click the button below for generate color and get color code </h1>
+            <div>
+                <div class="form">
+                    <div class="input-group">
+                        <p class="icon">#</p>
+                        <input id="output" type="text" value="000000">
+                    </div>
+                </div>
+                <button id="copy" class="copy" title="copy to clipboard">copy</button>
+            </div>
+            <div>
+                <div class="form">
+                    <div class="input-group">
+                        <!-- <p class="icon">#</p> -->
+                        <input id="output2" type="text" value="rgb(0, 0, 0)" disabled>
+                    </div>
+                </div>
+                <button id="copy2" class="copy" title="copy to clipboard">copy</button>
+            </div>
+            <button class="btn">Click Here</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
